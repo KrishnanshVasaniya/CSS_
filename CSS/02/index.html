@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selectors */
+        div{
+            /* background-color: red; */
+        }
+
+        /* Class Selector  */
+        .red{
+            background-color: red;
+        }
+
+        /* ID Selector */
+        #green{
+            background-color: green;
+        }
+
+        /* Child Selector */
+        div>p{
+            background-color: aqua;
+        }
+
+        /* Descendent Selector */
+        div p{
+            background-color: gray;
+        }
+
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a{
+            color: blue;
+        }
+
+        a:link{
+            color: green;
+        }
+
+        a:active{
+            background-color: blueviolet;
+        }
+
+        a:hover{
+            background-color: yellow;
+        }
+
+        p:first-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <main class="One">
+        <p>I am First</p>
+        <p>I am Second</p>
+    </main>
+
+    
+    <div class="red">
+        I am Learning CSS.
+        <article>
+            <p>I am Child</p>
+        </article>
+        
+    </div>
+    <div id="green">
+        Lets Learn this.
+    </div>
+
+    <div>
+        <a href="https://www.google.com">Go To GOOGLE</a>
+        <a href="https://www.facebook.com">Go To Facebook</a>
+    </div>
+    
+</body>
+</html>
