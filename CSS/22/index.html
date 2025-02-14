@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraEdit Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .icons {
+            display: flex;
+            gap: 15px;
+        }
+        .icons img {
+            height: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="ultraedit-logo.png" alt="UltraEdit Logo">
+            <span>UltraEdit</span>
+        </div>
+        <div class="nav-links">
+            <a href="#">Products</a>
+            <a href="#">For business</a>
+            <a href="#">Resources</a>
+            <a href="#">Support</a>
+            <a href="#">Our company</a>
+        </div>
+        <div class="icons">
+            <img src="translate-icon.png" alt="Translate">
+            <img src="search-icon.png" alt="Search">
+        </div>
+    </nav>
+</body>
+</html>
